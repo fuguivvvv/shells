@@ -13,3 +13,8 @@ pip install ipython
 pip3 install ipython
 ln -s /usr/local/python3/bin/ipython /usr/bin/ipython3
 pip3 install numpy pandas  tushare  requests  pymysql matplotlib
+#virtualenv ,virtualenvwrapper
+pip install virtualenv
+pip install virtualvenwrapper
+pip3 install virtualenv
+pip3 install virtualenvwrapper

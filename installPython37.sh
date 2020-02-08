@@ -20,7 +20,7 @@ yum -y install epel-release
 yum install python-pip
 pip install --upgrade pip
 pip install virtualenv
-pip install virtualvenwrapper
+pip install virtualenvwrapper
 pip3 install virtualenv
 pip3 install virtualenvwrapper
 

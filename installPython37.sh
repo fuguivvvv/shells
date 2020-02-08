@@ -1,3 +1,4 @@
+yum wget curl vim -y
 yum install wget zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gcc make libffi-devel  xz-devel -y
 yum install zlib-devel libffi-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gcc make -y 
 wget https://www.python.org/ftp/python/3.7.4/Python-3.7.4.tar.xz

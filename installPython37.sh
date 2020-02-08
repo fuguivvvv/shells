@@ -25,8 +25,8 @@ pip3 install virtualenv
 pip3 install virtualenvwrapper
 
 # virtuaenv开机启动初始化
-echo export WORKON_HOME=/root/virtualenvs >> /etc/profle
-echo source /usr/local/python3/bin/virtualenvwrapper.sh >> /etc/profle
+echo export WORKON_HOME=/root/virtualenvs >> /etc/profile
+echo source /usr/local/python3/bin/virtualenvwrapper.sh >> /etc/profile
 
 #test
 mkvirtualenv -p python3 my_test_env3

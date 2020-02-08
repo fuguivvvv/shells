@@ -28,5 +28,6 @@ pip3 install virtualenvwrapper
 echo export WORKON_HOME=/root/virtualenvs >> /etc/profile
 echo source /usr/local/python3/bin/virtualenvwrapper.sh >> /etc/profile
 
-#test
-mkvirtualenv -p python3 my_test_env3
+# test,after rboot:
+# mkvirtualenv -p python3 my_test_env3
+

@@ -10,7 +10,7 @@ ln -s /usr/local/python3/bin/python3 /usr/bin/python3
 ln -s /usr/local/python3/bin/pip3 /usr/bin/pip3
 pip3 install --upgrade pip
 pip3 -V
-pip install ipython
+
 pip3 install ipython
 ln -s /usr/local/python3/bin/ipython /usr/bin/ipython3
 pip3 install numpy pandas  tushare  requests  pymysql matplotlib
@@ -19,6 +19,7 @@ pip3 install numpy pandas  tushare  requests  pymysql matplotlib
 yum -y install epel-release
 yum install python-pip
 pip install --upgrade pip
+pip install ipython
 pip install virtualenv
 pip install virtualenvwrapper
 pip3 install virtualenv

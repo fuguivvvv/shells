@@ -17,7 +17,7 @@ pip3 install numpy pandas  tushare  requests  pymysql matplotlib
 #virtualenv ,virtualenvwrapper
 
 yum -y install epel-release
-yum install python-pip
+yum install python-pip -y
 pip install --upgrade pip
 pip install ipython
 pip install virtualenv

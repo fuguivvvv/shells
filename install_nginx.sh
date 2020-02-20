@@ -18,5 +18,5 @@ gpgkey=https://nginx.org/keys/nginx_signing.key
 module_hotfixes=true
 EOF
 
-sudo yum-config-manager --enable nginx-stable
+sudo yum-config-manager --enable nginx-mainline
 sudo yum install nginx -y

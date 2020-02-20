@@ -19,4 +19,4 @@ module_hotfixes=true
 EOF
 
 sudo yum-config-manager --enable nginx-stable
-sudo yum install nginx- y
+sudo yum install nginx -y

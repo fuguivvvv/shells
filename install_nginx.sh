@@ -1,4 +1,4 @@
-install yum-utils -y
+yum install yum-utils -y
 
 cat > /etc/yum.repos.d/nginx.repo  <<EOF
 [nginx-stable]

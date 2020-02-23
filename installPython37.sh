@@ -10,25 +10,6 @@ ln -s /usr/local/python3/bin/python3 /usr/bin/python3
 ln -s /usr/local/python3/bin/pip3 /usr/bin/pip3
 pip3 install --upgrade pip
 pip3 -V
-
 pip3 install ipython
 ln -s /usr/local/python3/bin/ipython /usr/bin/ipython3
 pip3 install numpy pandas  tushare  requests  pymysql matplotlib
-#virtualenv ,virtualenvwrapper
-
-yum -y install epel-release
-yum install python-pip -y
-pip install --upgrade pip
-pip install ipython
-pip install virtualenv
-pip install virtualenvwrapper
-pip3 install virtualenv
-pip3 install virtualenvwrapper
-
-# virtuaenv开机启动初始化
-echo export WORKON_HOME=/root/virtualenvs >> /etc/profile
-echo source /usr/local/python3/bin/virtualenvwrapper.sh >> /etc/profile
-
-# test,after rboot:
-# mkvirtualenv -p python3 my_test_env3
-

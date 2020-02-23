@@ -12,4 +12,9 @@ pip3 install --upgrade pip
 pip3 -V
 pip3 install ipython
 ln -s /usr/local/python3/bin/ipython /usr/bin/ipython3
-pip3 install numpy pandas  tushare  requests  pymysql matplotlib
+#pip3 install numpy pandas  tushare  requests  pymysql matplotlib
+
+## pip
+yum -y install epel-release
+yum install python-pip
+pip install --upgrade pip

@@ -18,3 +18,5 @@ ln -s /usr/local/python3/bin/ipython /usr/bin/ipython3
 yum -y install epel-release
 yum install python-pip
 pip install --upgrade pip
+pip install wheel
+pip3 install wheel
